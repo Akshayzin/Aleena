@@ -1,4 +1,4 @@
-FROM https:/quay.io/repository/akshayzin:latest
+FROM https://quay.io/repository/akshayzin/aleena:latest
 RUN git clone https://github.com/Akshayzin/Aleena/root/Aleena
 WORKDIR /root/X-Asena
 RUN yarn install --network-concurrency 1
